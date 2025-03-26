@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+<h1 align="center"> Projeto Page Feed </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## Expanding the ESLint configuration
+<p align="center">
+  <img src="Documentação PAGEFEED/1.png" width="100%">
+</p>
+<p align="center">
+  <img src="Documentação PAGEFEED/2.png" width="100%">
+</p>
+<p align="center">
+  <img src="Documentação PAGEFEED/3.png" width="100%">
+</p>
+<p align="center">
+  <img src="Documentação PAGEFEED/4.png" width="100%">
+</p>
+<p align="center">
+  <img src="Documentação PAGEFEED/5.png" width="100%">
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📟 Sobre o Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Projeto criado durante um curso da RocketSeat, focado em uma página de posts em feed, com interações como comentários, likes na função aplauso e validação de dados antes da postagem de comentários.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 💻 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- Javascript
+- react
+- figma
+- Git
+
+## 🪄 Layout
+
+Layout totalmente feito direto do projeto original figma durante o curso com cores originais.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+<p align="center">
+  <img src="Documentação PAGEFEED/6.png" width="100%">
+</p>
+
+Feito com ♥ by vhfcaetano
